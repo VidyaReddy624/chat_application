@@ -1,0 +1,21 @@
+print("=== Simple Chat Application ===")
+print("Type 'bye' to exit\n")
+
+while True:
+    user = input("You: ").lower()
+
+    if user in ["hello", "hi", "hey"]:
+        print("Bot: Hi! How are you?")
+
+    elif user == "how are you":
+        print("Bot: I am fine. Thanks for asking!")
+
+    elif user in ["your name", "what is your name"]:
+        print("Bot: My name is ChatBot.")
+
+    elif user == "bye":
+        print("Bot: Goodbye!")
+        break
+
+    else:
+        print("Bot: Sorry, I don't understand.")
