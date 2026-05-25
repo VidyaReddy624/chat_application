@@ -1,36 +1,64 @@
-# BMI Calculator
+# Simple Chat Application
 
-A simple Python program to calculate Body Mass Index (BMI).
-
-## Features
-- Takes height and weight input
-- Calculates BMI value
-- Shows BMI category
-
-## How to run
-python bmi_calculator.py
-
-
-
-
-# Password Generator
-
-## Description
-This is a simple Password Generator project created using Python.
+A beginner-friendly chatbot built using Python. The application interacts with users through the command line and responds to basic messages.
 
 ## Features
-- Generates secure passwords
-- Includes uppercase and lowercase letters
-- Includes numbers and symbols
-- User chooses password length
+
+- Responds to greetings such as:
+  - Hi
+  - Hello
+  - Hey
+- Answers simple questions
+- Introduces itself
+- Allows users to end the conversation with "bye"
+- Easy to understand and customize
 
 ## Technologies Used
-- Python
-- VS Code
+
+- Python 3
 
 ## How to Run
 
-python password_generator.py
+1. Install Python on your computer.
+2. Download or clone this repository.
+3. Open the project folder in VS Code.
+4. Run the following command:
+
+```bash
+python chat_application.py
+```
+
+## Example Output
+
+```text
+=== Simple Chat Application ===
+
+You: hi
+Bot: Hi! How are you?
+
+You: your name
+Bot: My name is ChatBot.
+
+You: bye
+Bot: Goodbye!
+```
+
+## Project Structure
+
+```text
+Simple-Chat-Application/
+│
+├── chat_application.py
+└── README.md
+```
+
+## Future Enhancements
+
+- Add more chatbot responses
+- Support multiple languages
+- Store chat history
+- Create a graphical user interface (GUI)
 
 ## Author
+
 Vidya
